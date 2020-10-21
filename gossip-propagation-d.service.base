@@ -1,0 +1,13 @@
+[Unit]
+Description=Gossip-Propagation-D
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/gossip -j
+Restart=always
+Type=simple
+User=USER
+Group=USER
+
+[Install]
+WantedBy=multi-user.target
