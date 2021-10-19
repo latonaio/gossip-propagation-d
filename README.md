@@ -9,8 +9,8 @@ gossip-propagation-d が OSレイヤーで稼働する理由は、エッジコ�
 
 ## 依存関係
 
-- distributed-service-discovery
-- titaniadb-sentinel  
+- [distributed-service-discovery](https://github.com/latonaio/distributed-service-discovery)  
+- [titaniadb-sentinel](https://github.com/latonaio/titaniadb-sentinel)  
 
 ## セットアップ方法
 ```
