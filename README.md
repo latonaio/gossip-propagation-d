@@ -1,3 +1,8 @@
+<p align="center"> <img src="https://user-images.githubusercontent.com/91356865/142333952-93557ec8-21be-40ca-a85a-7624fc731f7f.png" width="300"> 
+</p> <p align="center"></p>
+
+***
+
 # gossip-propagation-d  
 gossip-propagation-d は、同一ネットワークに接続された複数端末間でクラスターを形成します。クラスター内の端末間で、エッジ端末情報(デバイス名、IPアドレス、死活等)や、podの起動情報を取得・同期します。  
 同期されたデータは、titaniadb-sentinelによって、titaniadb に書き込まれます。  
